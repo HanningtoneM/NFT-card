@@ -141,3 +141,9 @@ ul {
 .creation p .span2:hover {
     color: var(--Cyan);
 }
+
+@media screen and (min-width: 630px) {
+    .container {
+        margin-top: 10rem;
+    }
+}
