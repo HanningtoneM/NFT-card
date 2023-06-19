@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.euthereum {
+    background-image: url(images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    padding-left: 1rem;
+}
+
+.days {
+    background-image: url(images/icon-clock.svg);
+    background-repeat: no-repeat;
+    padding-left: 1.2rem;
+}
+
